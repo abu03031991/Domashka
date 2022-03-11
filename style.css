@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "roboto";
+}
+
+header {
+    height: 289px;
+    margin: auto;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav .logo {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+header nav .menu {
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav .menu li a {
+    display: block;
+    color: #bab9b9;
+    padding-bottom: 16px;
+    font-size: 17px;
+    margin-bottom: 50px;
+    transition: .5s;
+}
+
+header nav .menu li a:hover {
+    color: #4581b7;
+}
+
+header nav .menu li a::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 4px;
+    background: #4581b7;
+    margin-top: 15px;
+    transition: .5s linear;
+}
+
+header nav .menu li a:hover::after {
+    width: 100%;
+}
+
+section .back {
+    display: block;
+    display: flex;
+    justify-content: center;
+    width: 1110px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+main .info {
+    width: 730px;
+    background: #f0f0f0;
+    margin-right: 30px;
+    padding: 49px 98px 67px 40px;
+
+}
+
+main .info h2 {
+    color: #4581b7;
+    margin-bottom: 24px;
+}
+
+main .info p {
+    color: #7f7f7f;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+
+main .info1 {
+    display: block;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background: #f0f0f0;
+    padding: 49px 54px 182px 40px;
+
+}
+
+main .info1 h2 {
+    color: #4581b7;
+    margin-bottom: 29px;
+}
+
+main .info1 p {
+    color: #7f7f7f;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 48px;
+}
+
+main .info1 .number {
+    margin-bottom: 51px;
+    color: #808080;
+}
+
+main .info1 .pochta {
+    color: #808080;
+}
+
+footer {
+    margin: auto;
+    width: 1110px;
+    height: 150px;
+    margin-top: 30px;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .futer {
+    display: block;
+    margin-left: 41px;
+    margin-top: 16px;
+    margin-bottom: 14px;
+
+
+}
+
+footer .futer1 {
+    margin-top: 40px;
+    margin-right: 40px;
+    color: #7f7f7f;
+    font-size: 16px;
+    text-align: right;
+
+}
+
+.number1 {
+    color: #808080;
+    font-weight: 700;
+    font-size: 25px;
+}
